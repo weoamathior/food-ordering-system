@@ -23,6 +23,8 @@ public class Restaurant extends AggregateRoot<RestaurantId> {
         return active;
     }
 
+    public static Builder builder() { return new Builder(); }
+
     public static final class Builder {
         private RestaurantId restaurantId;
         private List<Product> products;
