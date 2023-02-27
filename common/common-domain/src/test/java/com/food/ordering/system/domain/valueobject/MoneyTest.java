@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -43,5 +44,12 @@ class MoneyTest {
         Money result = new Money(BigDecimal.ONE).multiply(3);
         assertNotNull(result);
         assertEquals(BigDecimal.valueOf(3).setScale(2, RoundingMode.HALF_EVEN), result.getAmount());
+    }
+
+    @Test
+    void doit() {
+        for (int i=0; i<4; i++) {
+            System.out.println(UUID.randomUUID());
+        }
     }
 }
