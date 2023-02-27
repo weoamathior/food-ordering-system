@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderTrackedCommandHandler {
     public TrackOrderResponse trackOrder(TrackOrderQuery trackOrderQuery) {
-
+        log.info("implement me - TODO");
+        return null;
     }
 }
