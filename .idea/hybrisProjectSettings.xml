@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HybrisProjectSettings">
+    <option name="moduleSettings">
+      <map>
+        <entry key="food-ordering-system">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="infrastructure">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="kafka">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="kafka-config-data">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="kafka-consumer">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="kafka-model">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+        <entry key="kafka-producer">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
